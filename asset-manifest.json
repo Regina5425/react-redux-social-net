@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-redux-social-net/static/css/main.9175e262.chunk.css",
+    "main.js": "/react-redux-social-net/static/js/main.88ac83a0.chunk.js",
+    "main.js.map": "/react-redux-social-net/static/js/main.88ac83a0.chunk.js.map",
+    "runtime-main.js": "/react-redux-social-net/static/js/runtime-main.82ba7876.js",
+    "runtime-main.js.map": "/react-redux-social-net/static/js/runtime-main.82ba7876.js.map",
+    "static/js/2.8d11d8ac.chunk.js": "/react-redux-social-net/static/js/2.8d11d8ac.chunk.js",
+    "static/js/2.8d11d8ac.chunk.js.map": "/react-redux-social-net/static/js/2.8d11d8ac.chunk.js.map",
+    "index.html": "/react-redux-social-net/index.html",
+    "static/css/main.9175e262.chunk.css.map": "/react-redux-social-net/static/css/main.9175e262.chunk.css.map",
+    "static/js/2.8d11d8ac.chunk.js.LICENSE.txt": "/react-redux-social-net/static/js/2.8d11d8ac.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82ba7876.js",
+    "static/js/2.8d11d8ac.chunk.js",
+    "static/css/main.9175e262.chunk.css",
+    "static/js/main.88ac83a0.chunk.js"
+  ]
+}
