@@ -21,6 +21,7 @@ const SingleComment = ({ data }) => {
   const handleUpdate = (e) => {
     e.preventDefault();
     dispatch(commentUpdate(commentText, id));
+		e.target.value = ''
   };
 
   const handleDelete = (e) => {

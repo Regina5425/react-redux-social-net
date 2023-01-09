@@ -1,7 +1,7 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import uniqid from "uniqid";
-import { commentCreate } from "./redux/actions";
+import { commentCreate, commentsLoad } from "./redux/actions";
 import SingleComment from "./SingleComment";
 
 const Comments = (props) => {
@@ -23,7 +23,10 @@ const Comments = (props) => {
     dispatch(commentCreate(textComment, id));
   };
 
-	console.log('comments >>', comments)
+	useEffect(() => {
+		dispatch(commentsLoad());
+		// eslint-disable-next-line
+	}, [])
 
   return (
     <div className='card-comments'>
